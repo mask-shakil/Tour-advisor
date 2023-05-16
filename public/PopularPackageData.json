@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "title":"Bandarbans",
+        "day":"7 days 8 night",
+        "price":"23000",
+        "img":"https://img.freepik.com/free-photo/pak-nam-chumphon-town-fisherman-village-from-khao-matsee-viewpoint-chumphon-thailand_335224-1141.jpg?size=626&ext=jpg&ga=GA1.1.309246416.1683256725&semt=ais"
+    },
+    {
+        "id":"2",
+        "title":"SundarBan",
+        "day":"7 days 8 night",
+        "price":"33000",
+        "img":"https://img.freepik.com/free-photo/wide-angle-shot-boat-riding-river-passing-through-trees_181624-10546.jpg?size=626&ext=jpg&ga=GA1.2.309246416.1683256725&semt=ais"
+    },
+    {
+        "id":"3",
+        "title":"Tokyo",
+        "day":"7 days 8 night",
+        "price":"93000",
+        "img":"https://img.freepik.com/free-photo/tokyo-railway-station-business-district-building-night-japan_335224-158.jpg?size=626&ext=jpg&ga=GA1.1.309246416.1683256725&semt=sph"
+    },
+    {
+        "id":"4",
+        "title":"Tajmoahal",
+        "day":"7 days 8 night",
+        "price":"83000",
+        "img":"https://img.freepik.com/premium-photo/taj-mahal-sunrise-view-agra-uttar-pradesh-india_400112-860.jpg?size=626&ext=jpg&ga=GA1.1.309246416.1683256725&semt=sph"
+    },
+    {
+        "id":"5",
+        "title":"Darjeeling",
+        "day":"7 days 8 night",
+        "price":"43000",
+        "img":"https://img.freepik.com/free-photo/aerial-view-beautiful-sky-road-top-mountains-with-green-jungle-nan-province-thailand_335224-1063.jpg?size=626&ext=jpg&ga=GA1.1.309246416.1683256725&semt=sph"
+    },
+    {
+        "id":"6",
+        "title":"Nepal",
+        "day":"7 days 8 night",
+        "price":"93000",
+        "img":"https://img.freepik.com/free-photo/backpacker-deogyusan-mountains-winter_335224-465.jpg?size=626&ext=jpg&ga=GA1.1.309246416.1683256725&semt=sph"
+    }
+]

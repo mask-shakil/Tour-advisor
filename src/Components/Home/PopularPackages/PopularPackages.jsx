@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from "react";
-
+import { useNavigate } from "react-router-dom";
 const PopularPackages = () => {
+  const navigate = useNavigate();
+  const showPopularPackageDetails = () => {
+    const path = `popularSinglePackage${id}`;
+    navigate(path);
+  };
   const [popularPackages, setPackages] = useState([]);
   useEffect(() => {
     fetch("PopularPackageData.json")
@@ -13,7 +18,7 @@ const PopularPackages = () => {
         <h1 className="text-center">Popular Packages</h1>
         <div className="row">
           {popularPackages.map((popularPackage) => (
-            <div className="col-4 mt-5 text-center">
+            <div key={popularPackage.id} className="col-4 mt-5 text-center">
               <div class="card mt-3 shadow">
                 <img
                   style={{ height: "250px" }}
@@ -25,9 +30,12 @@ const PopularPackages = () => {
                   <h5 class="card-title">{popularPackage.title}</h5>
                   <p class="card-text">{popularPackage.day}</p>
                   <p class="card-text">{popularPackage.price}</p>
-                  <a href="#" class="btn btn-primary">
-                    See More
-                  </a>
+                  <button
+                    onClick={showPopularPackageDetails()}
+                    className="btn btn-primary"
+                  >
+                    See details
+                  </button>
                 </div>
               </div>
             </div>
